@@ -61,7 +61,7 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import Modal from "./Modal";
-import { images, ImageData } from "../utils/imageData";
+import { images } from "../utils/imageData";
 
 export default function Gallery() {
   const [currentIndex, setCurrentIndex] = useState<number | null>(null);

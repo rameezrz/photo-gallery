@@ -14,7 +14,7 @@ export default function Header() {
             className="rounded-full"
           />
         </div>
-        <nav>
+        {/* <nav>
           <ul className="flex space-x-4 text-[#006ec7]">
             <li>
               <a href="#" className="hover:text-black">
@@ -32,7 +32,7 @@ export default function Header() {
               </a>
             </li>
           </ul>
-        </nav>
+        </nav> */}
       </div>
     </header>
   );
